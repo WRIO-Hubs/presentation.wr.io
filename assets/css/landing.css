@@ -9,15 +9,17 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
   .navbar,.navbar-nav{z-index:100}
   .navbar .navbar-brand{padding:0}
   .navbar .navbar-nav .nav-item .nav-link{color:#999;font-size:1em;font-weight:bold}
-    .navbar .navbar-nav .nav-item .nav-link:hover{color:#fff}
+    .navbar .navbar-nav .nav-item .nav-link:hover{color:#fff;text-decoration:none}
+.container a{color:#46bdf4}
+.container a:hover{text-decoration:underline}
 .carousel-inner .carousel-control-next{opacity:1}
   .carousel-inner .carousel-control-next .material-icons{font-size:36px;height:36px;position:inherit}
   .carousel-inner ul{font-size:1.125rem;line-height:1.5em;list-style-type:none;padding:0}
     .carousel-inner .story ul{color:#ccc;font-size:1em;list-style-type:disc}
   .carousel-inner ul.grey{color:#eee}
-  .carousel-inner ul a{color:#e89b35;font-size:1.125rem!important}
+  .carousel-inner ul a{color:#46bdf4;font-size:1.125rem!important}
     .carousel-inner ul a:hover{text-decoration:underline}
-  .carousel-inner .story a{color:#e89b35;font-size:1em!important}
+  .carousel-inner .story a{color:#46bdf4;font-size:1em!important}
     .carousel-inner .story a:hover{text-decoration:underline}
   .carousel-inner .material-icons{font-size:1.125rem;font-weight:bold;position:relative;top:3px}
   a.carousel-control-prev,a.carousel-control-next{position:fixed;z-index:99}
@@ -34,8 +36,8 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
   .card-collapse .card-body{padding:0 50px 0 25px}
   .carousel .card .card-body{max-width:none;min-height:auto}
 .btn.btn-danger{background-color:rgb(221, 0, 0)}
-.container h4  a,.container .h4 a:visited,.container h6  a,.container .h6 a:visited{color:#ffab00}
-.container h4 a:hover,.container h6 a:hover{color:#ffcc00}
+.container h4  a,.container .h4 a:visited,.container h6  a,.container .h6 a:visited{color:#46bdf4}
+.container h4 a:hover,.container h6 a:hover{color:#46bdf4}
 .page-header .title{font-weight:normal}
 .bottom a{text-decoration:none!important}
   .bottom a .material-icons{margin-left:12px;font-size:1.6rem;position:relative!important;top:-1px!important}
@@ -51,6 +53,7 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
 .carousel-item{perspective:none}
 .page-header{display:block;height:auto}
 .navbar.navbar-absolute{position:fixed}
+.fa-window-maximize{font-size:10px!important;margin-left:4px}
 
 /*
 .footer-big .gallery-feed a{width:20%;display:inline-block;margin-right:5%;margin-bottom:5%}
