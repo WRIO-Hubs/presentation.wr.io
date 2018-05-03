@@ -28,7 +28,7 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
     .bottom a.btn-link:hover{color:#fff}
   #accordion .card-header{background:none;border:none;margin:8px 0;padding:8px}
     #accordion .card-header h6{margin:0;padding:5px 10px}
-    #accordion .card-collapse .card-header a{color:#fff;text-transform:capitalize}
+    #accordion .card-collapse .card-header a{color:#fff;text-transform:none}
     #accordion .card-collapse .card-header a.collapsed{color:#999}
     #accordion .card-collapse .card-header a i{top:-4px}
   .bottom .prev i{font-size:2.4rem!important;line-height:20px;margin:0}
@@ -127,6 +127,7 @@ p{color:#ccc}
 .profit{background:url("../img/icons/profit.png") 0 0 no-repeat}
 .special{background:url("../img/icons/special.png") 0 0 no-repeat}
 .ico{background:url("../img/icons/ico.png") 0 0 no-repeat}
+.puzzle{background:url("../img/icons/puzzle.png") 0 0 no-repeat}
 h4{margin-bottom:-12px}
 .progress{width:50%}
 sub{position:relative;top:0}
