@@ -8,8 +8,8 @@ body{background: url('../img/bg.jpg') center center;background-attachment:fixed;
     h2.pull-right span{font-size:.75em;text-transform:lowercase}
   .navbar,.navbar-nav{z-index:100}
   .navbar .navbar-brand{padding:0}
-  .navbar .navbar-nav .nav-item .nav-link{color:#999;font-size:1em;font-weight:bold}
-    .navbar .navbar-nav .nav-item .nav-link:hover{color:#fff;text-decoration:none}
+  .navbar .navbar-nav .nav-item .nav-link{color:#999;font-size:1em;font-weight:bold;transition:all .35s ease}
+    .navbar .navbar-nav .nav-item .nav-link:hover{color:#fff;text-decoration:none;transition:all .35s ease}
 .container a{color:#46bdf4}
 .container a:hover{text-decoration:underline}
 .carousel-inner .carousel-control-next{opacity:1}
