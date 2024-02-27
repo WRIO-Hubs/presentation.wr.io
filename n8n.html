@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Brands</title>
+</head>
+<body>
+  <h1>Search Brands Example</h1>
+  <div id="result"></div>
+
+  <script>
+    async function searchBrands() {
+      // URL для отправки запроса
+      const url = 'https://demo.public.api.abcp.ru/search/brands/?userlogin=190277547&userpsw=123456&number=01089';
+
+      try {
+        // Отправка GET запроса к указанному URL
+        const response = await fetch(url);
+
+        // Проверка статуса ответа
+        if (response.ok) {
+          // Если ответ успешен, получаем JSON ответа
+          const data = await response.json();
+          // Отображаем результат в элементе с id "result"
+          document.getElementById('result').textContent = JSON.stringify(data);
+        } else {
+          // Если возникла ошибка, выводим сообщение об ошибке
+          document.getElementById('result').textContent = 'Failed to search brands';
+        }
+      } catch (error) {
+        // Обработка ошибок, если запрос не удалось выполнить
+        document.getElementById('result').textContent = 'Failed to search brands: ' + error.message;
+      }
+    }
+
+    // Вызываем функцию searchBrands() при загрузке страницы
+    searchBrands();
+  </script>
+</body>
+</html>
